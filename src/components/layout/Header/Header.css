@@ -1,0 +1,80 @@
+.header {
+  height: 86px;
+  padding: 0 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  gap: 24px;
+}
+.desktop-nav {
+  display: flex;
+  gap: 36px;
+  margin-left: 70px;
+  font-size: 12px;
+}
+.desktop-nav a {
+  position: relative;
+  padding: 10px 0;
+}
+.desktop-nav a:after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--ink);
+  transition: width 0.3s;
+}
+.desktop-nav a:hover:after {
+  width: 100%;
+}
+.menu-toggle {
+  display: none;
+}
+@media (min-width: 1600px) {
+  .header {
+    padding-left: max(4%, calc((100vw - 1540px) / 2));
+    padding-right: max(4%, calc((100vw - 1540px) / 2));
+  }
+}
+@media (max-width: 1000px) {
+  .desktop-nav {
+    margin-left: 0;
+    gap: 23px;
+  }
+}
+@media (max-width: 700px) {
+  .header {
+    height: 85px;
+    padding: 0 5%;
+    gap: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .menu-toggle {
+    display: grid;
+  }
+}
+.desktop-nav {
+  font-size: 14px;
+}
+@media (max-width: 700px) {
+  .header {
+    height: 80px;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+@media (max-width: 700px) {
+  .menu-toggle {
+    width: 44px;
+    height: 44px;
+  }
+}

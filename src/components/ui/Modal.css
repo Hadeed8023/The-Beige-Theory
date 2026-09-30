@@ -1,0 +1,44 @@
+.modal {
+  background: var(--paper);
+  color: var(--ink);
+  border: 0;
+  padding: 50px;
+  width: min(600px, calc(100% - 32px));
+  max-height: 90dvh;
+  overflow-y: auto;
+  box-shadow: 0 30px 100px #0003;
+}
+.modal::backdrop {
+  background: rgba(30, 33, 25, 0.65);
+  backdrop-filter: blur(6px);
+}
+.modal[open] {
+  animation: fade 0.35s ease;
+}
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  background: var(--paper);
+  border-radius: 50%;
+}
+.modal h2 {
+  font-size: 43px;
+  margin: 22px 0 30px;
+}
+@media (max-width: 700px) {
+  .modal {
+    padding: 45px 25px 30px;
+  }
+}
+@media (max-width: 700px) {
+  .modal h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 700px) {
+  .modal .eyebrow {
+    font-size: 12px;
+  }
+}

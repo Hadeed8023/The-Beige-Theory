@@ -1,0 +1,129 @@
+.contact {
+  position: relative;
+  overflow: hidden;
+  background: var(--olive);
+  color: var(--paper);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contact h2 {
+  font-size: clamp(45px, 6.5vw, 96px);
+  margin: 28px 0 38px;
+  position: relative;
+  z-index: 1;
+}
+.contact p {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #c8ccbc;
+}
+.contact-flower {
+  position: absolute;
+  right: 4%;
+  top: 40px;
+  font-size: 400px;
+  line-height: 1;
+  color: #666b55;
+  opacity: 0.55;
+  animation: rotate 110s linear infinite;
+  pointer-events: none;
+}
+.contact > div {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 1000px) {
+  .contact-flower {
+    font-size: 300px;
+    right: -45px;
+    top: 90px;
+  }
+}
+@media (max-width: 700px) {
+  .contact h2 {
+    font-size: 12vw;
+    margin: 27px 0 30px;
+  }
+}
+@media (max-width: 700px) {
+  .contact .eyebrow {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .contact-flower {
+    font-size: 230px;
+    top: 125px;
+    right: -90px;
+    opacity: 0.3;
+  }
+}
+.contact h2 {
+  font-size: clamp(40px, 4.8vw, 72px);
+}
+.contact p {
+  font-size: 14px;
+}
+.contact-actions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.contact-actions .text-link {
+  border-color: #b7bba8;
+}
+@media (max-width: 700px) {
+  .contact h2 {
+    font-size: clamp(31px, 8.2vw, 39px);
+    line-height: 1.13;
+    letter-spacing: -1.1px;
+  }
+}
+@media (max-width: 700px) {
+  .contact-actions {
+    gap: 18px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .contact .button {
+    width: 100%;
+    justify-content: center;
+    gap: 16px;
+    min-height: 50px;
+  }
+}
+@media (max-width: 700px) {
+  .contact-actions .text-link {
+    font-size: 13px;
+    gap: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .contact-flower {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .contact h2 {
+    margin: 22px 0 28px;
+  }
+}
+@media (max-width: 700px) {
+  .contact .eyebrow {
+    font-size: 11px;
+  }
+}
+@media (max-width: 700px) {
+  .contact p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 700px) {
+  .contact {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}

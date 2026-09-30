@@ -1,0 +1,188 @@
+{
+  "hero": [
+    {
+      "src": "/images/responsive/hero-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 76228
+    },
+    {
+      "src": "/images/responsive/hero-1280.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 240618
+    },
+    {
+      "src": "/images/responsive/hero-1920.webp",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 475380
+    },
+    {
+      "src": "/images/responsive/hero-2560.webp",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 754906
+    },
+    {
+      "src": "/images/responsive/hero-3840.webp",
+      "width": 3840,
+      "height": 2880,
+      "bytes": 1580638
+    }
+  ],
+  "living": [
+    {
+      "src": "/images/responsive/living-640.webp",
+      "width": 640,
+      "height": 853,
+      "bytes": 114022
+    },
+    {
+      "src": "/images/responsive/living-1280.webp",
+      "width": 1280,
+      "height": 1707,
+      "bytes": 402864
+    },
+    {
+      "src": "/images/responsive/living-1920.webp",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 889502
+    },
+    {
+      "src": "/images/responsive/living-2560.webp",
+      "width": 2560,
+      "height": 3413,
+      "bytes": 1652510
+    },
+    {
+      "src": "/images/responsive/living-3840.webp",
+      "width": 3000,
+      "height": 4000,
+      "bytes": 2548544
+    }
+  ],
+  "dining": [
+    {
+      "src": "/images/responsive/dining-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 47838
+    },
+    {
+      "src": "/images/responsive/dining-1280.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 144782
+    },
+    {
+      "src": "/images/responsive/dining-1920.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 266310
+    },
+    {
+      "src": "/images/responsive/dining-2560.webp",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 414864
+    },
+    {
+      "src": "/images/responsive/dining-3840.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 722220
+    }
+  ],
+  "bedroom": [
+    {
+      "src": "/images/responsive/bedroom-640.webp",
+      "width": 640,
+      "height": 427,
+      "bytes": 69472
+    },
+    {
+      "src": "/images/responsive/bedroom-1280.webp",
+      "width": 1280,
+      "height": 853,
+      "bytes": 250394
+    },
+    {
+      "src": "/images/responsive/bedroom-1920.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": 607660
+    },
+    {
+      "src": "/images/responsive/bedroom-2560.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 1209916
+    },
+    {
+      "src": "/images/responsive/bedroom-3840.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 2960688
+    }
+  ],
+  "detail": [
+    {
+      "src": "/images/responsive/detail-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 44304
+    },
+    {
+      "src": "/images/responsive/detail-1280.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 144258
+    },
+    {
+      "src": "/images/responsive/detail-1920.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 278390
+    },
+    {
+      "src": "/images/responsive/detail-2560.webp",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 394136
+    },
+    {
+      "src": "/images/responsive/detail-3840.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 665328
+    }
+  ],
+  "office": [
+    {
+      "src": "/images/responsive/office-640.webp",
+      "width": 640,
+      "height": 427,
+      "bytes": 56374
+    },
+    {
+      "src": "/images/responsive/office-1280.webp",
+      "width": 1280,
+      "height": 854,
+      "bytes": 151790
+    },
+    {
+      "src": "/images/responsive/office-1920.webp",
+      "width": 1920,
+      "height": 1282,
+      "bytes": 266236
+    },
+    {
+      "src": "/images/responsive/office-2560.webp",
+      "width": 2301,
+      "height": 1536,
+      "bytes": 373326
+    }
+  ]
+}

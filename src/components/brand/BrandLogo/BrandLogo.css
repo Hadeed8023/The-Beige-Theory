@@ -1,0 +1,31 @@
+.brand-logo {
+  display: block;
+  width: 238px;
+  flex-shrink: 0;
+}
+.brand-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 200 / 64;
+  object-fit: contain;
+  object-position: center;
+}
+.header .brand-logo {
+  width: 190px;
+}
+.mobile-menu > .brand-logo {
+  width: min(220px, calc(100% - 52px));
+}
+@media (max-width: 700px) {
+  .header .brand-logo,
+  .footer .brand-logo {
+    width: 220px;
+    max-width: calc(100% - 60px);
+  }
+}
+@media (max-width: 700px) {
+  .header .brand-logo {
+    width: 180px;
+  }
+}

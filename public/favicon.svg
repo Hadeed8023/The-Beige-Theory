@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>The Beige Theory</title>
+  <rect width="64" height="64" rx="10" fill="#f2efe8"/>
+  <g fill="#9a876c">
+    <g transform="translate(-116.5 -102.75) scale(1.5)">
+      <path d="M89 72.5H109V87.8H105.8V75.7H89Z"/>
+      <path d="M89 79H102.5V87.8H99.3V82.2H92.2V87.8H89Z"/>
+    </g>
+    <g transform="translate(-116.5 -133) scale(1.5)">
+      <path d="M89.2 110.2H92.4C92.4 115.3 95.3 118.1 99.3 120.7V110.2H102.5V126.7L98.8 124.2C92.6 120.1 89.2 115.9 89.2 110.2Z"/>
+      <path d="M105.8 110.2H109V120H105.8Z"/>
+    </g>
+  </g>
+</svg>
