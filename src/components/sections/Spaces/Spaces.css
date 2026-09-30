@@ -8,8 +8,15 @@
   margin-top: 38px;
 }
 .imagery-note a {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  white-space: nowrap;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+.imagery-note a svg {
+  flex-shrink: 0;
 }
 .project-modal {
   padding: 0;

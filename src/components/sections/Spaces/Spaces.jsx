@@ -30,7 +30,8 @@ export default function Spaces() {
         <p className="imagery-note">
           {copy.spaces.imageryNote}{" "}
           <a href={site.instagram} target="_blank" rel="noreferrer">
-            {copy.spaces.instagram} ↗
+            {copy.spaces.instagram}
+            <ArrowUpRight size={13} aria-hidden="true" />
           </a>
           .
         </p>
