@@ -7,6 +7,7 @@ import {
 } from "motion/react";
 import { ArrowDown } from "lucide-react";
 import Photo from "../../ui/Photo";
+import Star from "../../ui/Star";
 import Reveal from "../../ui/Reveal";
 import RichText from "../../ui/RichText";
 import { copy } from "../../../i18n";
@@ -26,7 +27,7 @@ export default function Hero() {
         <Reveal>
           <span className="eyebrow">
             <span className="small-star" aria-hidden="true">
-              ✳
+              <Star />
             </span>
             {copy.hero.eyebrow}
           </span>

@@ -3,6 +3,7 @@ import { Minus, Plus } from "lucide-react";
 import Reveal from "../../ui/Reveal";
 import RichText from "../../ui/RichText";
 import Photo from "../../ui/Photo";
+import Star from "../../ui/Star";
 import { copy } from "../../../i18n";
 import "./Services.css";
 
@@ -15,7 +16,7 @@ export default function Services() {
           <Photo name="detail" alt={copy.services.imageAlt} />
         </Reveal>
         <div className="craft-caption">
-          <span aria-hidden="true">✳</span>
+          <span aria-hidden="true"><Star /></span>
           <p>
             {copy.services.craft}
             <span>{copy.services.origin}</span>

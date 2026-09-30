@@ -1,4 +1,5 @@
 import { copy } from "../../../i18n";
+import Star from "../../ui/Star";
 import "./Marquee.css";
 
 export default function Marquee() {
@@ -10,7 +11,7 @@ export default function Marquee() {
             {copy.marquee.map((text) => (
               <span className="marquee-item" key={text}>
                 {text}
-                <i>✳</i>
+                <i><Star /></i>
               </span>
             ))}
           </span>

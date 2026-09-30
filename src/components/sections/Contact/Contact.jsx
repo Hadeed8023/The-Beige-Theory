@@ -1,5 +1,6 @@
 import { ArrowUpRight, Instagram } from "lucide-react";
 import Reveal from "../../ui/Reveal";
+import Star from "../../ui/Star";
 import RichText from "../../ui/RichText";
 import WhatsAppLink from "../../ui/WhatsAppLink";
 import { site } from "../../../config/site";
@@ -32,7 +33,7 @@ export default function Contact() {
         <p>{copy.contact.note}</p>
       </Reveal>
       <span className="contact-flower" aria-hidden="true">
-        ✳
+        <Star />
       </span>
     </section>
   );
